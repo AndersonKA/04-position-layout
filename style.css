@@ -2,6 +2,8 @@ body {
   margin: 0;
   font-family: sans-serif;
   font-size: 12px;
+  background: blue;
+  /*background: url('http://baconmockup.com/1920/1080');*/
 }
 
 ul {
@@ -22,4 +24,15 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.everything {
+  padding: 1rem;
+
+}
+
+.everything-pic {
+  min-height: 100vh;
+  background: url('http://baconmockup.com/1920/1080');
+
 }
