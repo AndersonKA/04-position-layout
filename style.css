@@ -28,11 +28,33 @@ html {
 
 .everything {
   padding: 1rem;
-
 }
 
 .everything-pic {
   min-height: 100vh;
   background: url('http://baconmockup.com/1920/1080');
+}
+
+.container {
+
+}
+
+.left {
+
+}
+
+.left-avatar {
+
+}
+
+.health {
+
+}
+
+.health-text {
+
+}
+
+.health-bars {
 
 }
