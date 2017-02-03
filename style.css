@@ -72,6 +72,22 @@ padding-bottom: 0.25rem;
 
 }
 
+.bar {
+  width: 0.5rem;
+  height: 1rem;
+  border: #a3a3a3 solid 0.1rem;
+  background: #fff;
+  display: inline-block;
+}
+
+.bar-yellow {
+  width: 0.5rem;
+  height: 1rem;
+  border: #a3a3a3 solid 0.1rem;
+  background: yellow;
+  display: inline-block;
+}
+
 .right {
   position: fixed;
   bottom: 0;
@@ -81,29 +97,62 @@ padding-bottom: 0.25rem;
 }
 
 .wat {
-
+ text-align: right;
 }
 
 .right-bottom {
-  max-width: 4rem;
+
   overflow: auto;
   display: inline-block;
 }
 
+.right-pic {
+
+}
+
 .smi {
+ max-width: 4rem;
  display: inline-block;
  border-radius: .50rem;
 }
 
 .smkb {
+  max-width: 4rem;
  display: inline-block;
  border-radius: .50rem;
 }
 
 .wi {
+  max-width: 6rem;
  display: inline-block;
  border-radius: .50rem;
 }
+
+.center {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  padding: 2rem;
+  overflow: auto;
+}
+
+.center-avatar {
+  max-width: 4rem;
+  border-radius: .50rem;
+}
+
+.eliminated {
+
+}
+
+.e-one {
+
+}
+
+.e-two {
+
+}
+
 
 
 
