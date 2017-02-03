@@ -34,8 +34,10 @@ html {
 
 .everything-pic {
   min-height: 100vh;
-  background: url('http://baconmockup.com/1920/1080');
+  background: url('https://unsplash.it/g/1920/1080');
+
 }
+
 
 .container {
 
@@ -46,18 +48,24 @@ html {
  position: fixed;
  bottom: 0;
  padding: 2rem;
+ overflow: auto;
 }
 
 .left-avatar {
  max-width: 4rem;
+ border-radius: .50rem;
 }
 
 .health {
-
+ float: right;
+ color: white;
+ padding: 1rem;
+ padding-bottom: 1rem;
+ vertical-align: middle;
 }
 
 .health-text {
-
+padding-bottom: 0.25rem;
 }
 
 .health-bars {
