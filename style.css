@@ -34,7 +34,7 @@ html {
 
 .everything-pic {
   min-height: 100vh;
-  background: url('https://unsplash.it/g/1920/1080');
+  /*background: url('https://unsplash.it/g/1920/1080');*/
 
 }
 
@@ -124,22 +124,25 @@ padding-bottom: 0.25rem;
 }
 
 .smi {
- max-width: 4rem;
+ max-width: 3rem;
  display: block;
  border-radius: .50rem;
 }
 
 .hotkey {
+
   display: block;
+  border: black 0.025rem solid;
+  margin: 0.5rem 0 0 0.25rem;
 }
 
 .weapon {
- display: inline-block;;
-
+ display: inline-block;
+ margin-bottom: 1rem;
 }
 
 .right-weapon {
-  max-width: 6rem;
+  max-width: 10rem;
   display: inline-block;
   border-radius: .50rem;
 }
