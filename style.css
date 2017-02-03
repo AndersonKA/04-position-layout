@@ -59,9 +59,9 @@ html {
 .health {
  float: right;
  color: white;
- padding: 1rem;
- padding-bottom: 1rem;
- vertical-align: top;
+ padding-left: 1rem;
+ margin-bottom: 1rem;
+
 }
 
 .health-text {
@@ -116,15 +116,9 @@ padding-bottom: 0.25rem;
 
 }
 
-/*.wat {
- text-align: right;
- color: white;
-}*/
-
 .right-bottom {
   overflow: auto;
   display: inline-block;
-
 }
 
 .right-pic {
@@ -140,7 +134,7 @@ padding-bottom: 0.25rem;
 
 .smkb {
   max-width: 2rem;
-  float: left;
+
   display: inline-block;
   border-radius: .50rem;
 }
@@ -153,16 +147,21 @@ padding-bottom: 0.25rem;
 }
 
 .center {
-  position: fixed;
+  /*position: fixed;
   top: 50%;
   right: 50%;
-  padding: 2rem;
-  overflow: auto;
+  overflow: auto;*/
+  left: 50;
+  position: fixed;
+  text-align: center;
+  transform: translate(0, -50%);
+  width: 100%;
 }
 
 .center-avatar {
   max-width: 4rem;
   border-radius: .50rem;
+
 }
 
 .eliminated {
