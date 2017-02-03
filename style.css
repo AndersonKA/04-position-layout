@@ -68,6 +68,14 @@ html {
 padding-bottom: 0.25rem;
 }
 
+.health-text-one {
+ font-size: 20px;
+}
+
+.health-text-two {
+
+}
+
 .health-bars {
 
 }
@@ -96,10 +104,22 @@ padding-bottom: 0.25rem;
   overflow: auto;
 }
 
-.wat {
- text-align: right;
+.weapon-text {
  color: white;
 }
+
+.weapon-text-one {
+ font-size: 20px;
+}
+
+.weapon-text-two {
+
+}
+
+/*.wat {
+ text-align: right;
+ color: white;
+}*/
 
 .right-bottom {
   overflow: auto;
@@ -114,19 +134,22 @@ padding-bottom: 0.25rem;
 .smi {
  max-width: 4rem;
  display: inline-block;
+ float: left;
  border-radius: .50rem;
 }
 
 .smkb {
-  max-width: 4rem;
- display: inline-block;
- border-radius: .50rem;
+  max-width: 2rem;
+  float: left;
+  display: inline-block;
+  border-radius: .50rem;
 }
 
 .wi {
   max-width: 6rem;
- display: inline-block;
- border-radius: .50rem;
+  display: inline-block;
+  border-radius: .50rem;
+  float: right;
 }
 
 .center {
@@ -144,15 +167,16 @@ padding-bottom: 0.25rem;
 
 .eliminated {
  color: white;
+ font-size: 20px;
 }
 
-.e-one {
-
+.eliminated-enemy {
+ color: red;
+ font-size: 20px;
 }
 
-.e-two {
 
-}
+
 
 
 
