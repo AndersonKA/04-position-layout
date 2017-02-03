@@ -96,6 +96,8 @@ padding-bottom: 0.25rem;
   display: inline-block;
 }
 
+
+
 .right {
   position: fixed;
   bottom: 0;
@@ -112,55 +114,54 @@ padding-bottom: 0.25rem;
  font-size: 20px;
 }
 
-.weapon-text-two {
-
-}
-
 .right-bottom {
   overflow: auto;
   display: inline-block;
 }
 
-.right-pic {
-
+.ability {
+  float: left;
 }
 
 .smi {
  max-width: 4rem;
- display: inline-block;
- float: left;
+ display: block;
  border-radius: .50rem;
 }
 
-.smkb {
-  max-width: 2rem;
-
-  display: inline-block;
-  border-radius: .50rem;
+.hotkey {
+  display: block;
 }
 
-.wi {
+.weapon {
+ display: inline-block;;
+
+}
+
+.right-weapon {
   max-width: 6rem;
   display: inline-block;
   border-radius: .50rem;
-  float: right;
 }
+
+
 
 .center {
   /*position: fixed;
   top: 50%;
   right: 50%;
   overflow: auto;*/
-  left: 50;
   position: fixed;
-  text-align: center;
-  transform: translate(0, -50%);
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .center-avatar {
   max-width: 4rem;
   border-radius: .50rem;
+  margin: auto;
 
 }
 
