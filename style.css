@@ -65,11 +65,12 @@ html {
 }
 
 .health-text {
-padding-bottom: 0.25rem;
+padding: 0.75rem 0 0.25rem 0;
 }
 
 .health-text-one {
  font-size: 20px;
+ padding-top: 1rem;
 }
 
 .health-text-two {
@@ -161,16 +162,22 @@ padding-bottom: 0.25rem;
   max-width: 4rem;
   border-radius: .50rem;
   margin: auto;
-  display: inherit;}
+  display: inherit;
+}
 
+.eliminated-group {
+   padding-top: 2rem;
+}
 .eliminated {
  color: white;
- font-size: 20px;
+ font-size: 30px;
+
 }
 
 .eliminated-enemy {
  color: red;
- font-size: 20px;
+ font-size: 30px;
+
 }
 
 
