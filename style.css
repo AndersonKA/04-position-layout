@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   font-size: 12px;
   background: blue;
-  /*background: url('http://baconmockup.com/1920/1080');*/
+
 }
 
 ul {
@@ -26,6 +26,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 .everything {
   padding: 1rem;
 }
@@ -40,11 +42,14 @@ html {
 }
 
 .left {
-
+ left: 0;
+ position: fixed;
+ bottom: 0;
+ padding: 2rem;
 }
 
 .left-avatar {
-
+ max-width: 4rem;
 }
 
 .health {
@@ -58,3 +63,9 @@ html {
 .health-bars {
 
 }
+
+/*Formatting of text and image sizes to roughly match example HUD
+Formatting of whitespace roughly match example HUD
+Use of float to "smash" elements next to each other
+Use of position property to position elements on the page
+Use of transform: translate to center HUD elements*/
