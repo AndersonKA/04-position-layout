@@ -61,7 +61,7 @@ html {
  color: white;
  padding: 1rem;
  padding-bottom: 1rem;
- vertical-align: middle;
+ vertical-align: top;
 }
 
 .health-text {
@@ -98,12 +98,13 @@ padding-bottom: 0.25rem;
 
 .wat {
  text-align: right;
+ color: white;
 }
 
 .right-bottom {
-
   overflow: auto;
   display: inline-block;
+
 }
 
 .right-pic {
@@ -142,7 +143,7 @@ padding-bottom: 0.25rem;
 }
 
 .eliminated {
-
+ color: white;
 }
 
 .e-one {
