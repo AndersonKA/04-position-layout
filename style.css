@@ -73,7 +73,11 @@ padding-bottom: 0.25rem;
 }
 
 .right {
-
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+  overflow: auto;
 }
 
 .wat {
@@ -83,6 +87,7 @@ padding-bottom: 0.25rem;
 .right-bottom {
   max-width: 4rem;
   overflow: auto;
+  display: inline-block;
 }
 
 .smi {
@@ -101,6 +106,12 @@ padding-bottom: 0.25rem;
 }
 
 
+
+/*    left: 0;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%; */
 
 
 /*Formatting of text and image sizes to roughly match example HUD
