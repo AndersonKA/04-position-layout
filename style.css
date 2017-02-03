@@ -72,6 +72,37 @@ padding-bottom: 0.25rem;
 
 }
 
+.right {
+
+}
+
+.wat {
+
+}
+
+.right-bottom {
+  max-width: 4rem;
+  overflow: auto;
+}
+
+.smi {
+ display: inline-block;
+ border-radius: .50rem;
+}
+
+.smkb {
+ display: inline-block;
+ border-radius: .50rem;
+}
+
+.wi {
+ display: inline-block;
+ border-radius: .50rem;
+}
+
+
+
+
 /*Formatting of text and image sizes to roughly match example HUD
 Formatting of whitespace roughly match example HUD
 Use of float to "smash" elements next to each other
