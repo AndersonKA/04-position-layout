@@ -39,10 +39,6 @@ html {
 }
 
 
-.container {
-
-}
-
 .left {
  left: 0;
  position: fixed;
@@ -61,7 +57,6 @@ html {
  color: white;
  padding-left: 1rem;
  margin-bottom: 1rem;
-
 }
 
 .health-text {
@@ -73,13 +68,6 @@ padding: 0.75rem 0 0.25rem 0;
  padding-top: 1rem;
 }
 
-.health-text-two {
-
-}
-
-.health-bars {
-
-}
 
 .bar {
   width: 0.5rem;
@@ -96,8 +84,6 @@ padding: 0.75rem 0 0.25rem 0;
   background: yellow;
   display: inline-block;
 }
-
-
 
 .right {
   position: fixed;
@@ -148,8 +134,6 @@ padding: 0.75rem 0 0.25rem 0;
   border-radius: .50rem;
 }
 
-
-
 .center {
   position: fixed;
   top: 50%;
@@ -170,13 +154,11 @@ padding: 0.75rem 0 0.25rem 0;
 .eliminated {
  color: white;
  font-size: 30px;
-
 }
 
 .eliminated-enemy {
  color: blue;
  font-size: 30px;
-
 }
 
 .bottom-center {
@@ -192,11 +174,6 @@ padding: 0.75rem 0 0.25rem 0;
   color: white;
   border: white 0.25rem dashed;
   border-radius: 50%;
-}
-
-
-.percent {
-
 }
 
 
