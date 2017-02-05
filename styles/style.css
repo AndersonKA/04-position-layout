@@ -95,7 +95,7 @@ padding: 0.75rem 0 0.25rem 0;
 
 .weapon-text {
  color: white;
- text-align: right;
+ text-align: center;
 }
 
 .weapon-text-one {
@@ -149,7 +149,7 @@ padding: 0.75rem 0 0.25rem 0;
 }
 
 .eliminated-group {
-   padding-top: 2rem;
+  padding-top: 2rem;
 }
 .eliminated {
  color: white;
@@ -175,12 +175,3 @@ padding: 0.75rem 0 0.25rem 0;
   border: white 0.25rem dashed;
   border-radius: 50%;
 }
-
-
-
-
-/*    left: 0;
-    position: fixed;
-    text-align: center;
-    bottom: 0;
-    width: 100%; */
