@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  background: #51c4d0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+.everything {
+  padding: 1rem;
+}
+
+.everything-pic {
+  min-height: 100vh;
+  /*background: url('https://unsplash.it/g/1920/1080');*/
+
+}
+
+
+.left {
+ left: 0;
+ position: fixed;
+ bottom: 0;
+ padding: 2rem;
+ overflow: auto;
+}
+
+.left-avatar {
+ max-width: 4rem;
+ border-radius: .50rem;
+}
+
+.health {
+ float: right;
+ color: white;
+ padding-left: 1rem;
+ margin-bottom: 1rem;
+}
+
+.health-text {
+padding: 0.75rem 0 0.25rem 0;
+}
+
+.health-text-one {
+ font-size: 20px;
+ padding-top: 1rem;
+}
+
+
+.bar {
+  width: 0.5rem;
+  height: 1rem;
+  border: #a3a3a3 solid 0.1rem;
+  background: #fff;
+  display: inline-block;
+}
+
+.bar-yellow {
+  width: 0.5rem;
+  height: 1rem;
+  border: #a3a3a3 solid 0.1rem;
+  background: yellow;
+  display: inline-block;
+}
+
+.right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+  overflow: auto;
+}
+
+.weapon-text {
+ color: white;
+ text-align: center;
+}
+
+.weapon-text-one {
+ font-size: 20px;
+}
+
+.right-bottom {
+  overflow: auto;
+  display: inline-block;
+}
+
+.ability {
+  float: left;
+}
+
+.smi {
+ max-width: 3rem;
+ display: block;
+ border-radius: .50rem;
+}
+
+.hotkey {
+  display: block;
+  border: black 0.025rem solid;
+  margin: 0.5rem 0 0 0.25rem;
+}
+
+.weapon {
+ display: inline-block;
+ margin-bottom: 1rem;
+}
+
+.right-weapon {
+  max-width: 10rem;
+  display: inline-block;
+  border-radius: .50rem;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-avatar {
+  max-width: 4rem;
+  border-radius: .50rem;
+  margin: auto;
+  display: inherit;
+}
+
+.eliminated-group {
+  padding-top: 2rem;
+}
+.eliminated {
+ color: white;
+ font-size: 30px;
+}
+
+.eliminated-enemy {
+ color: red;
+ font-size: 30px;
+}
+
+.bottom-center {
+  margin: auto;
+  position: fixed;
+  text-align: center;
+  max-width: 10rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  font-size:25px;
+  color: white;
+  border: white 0.25rem dashed;
+  border-radius: 50%;
+}
